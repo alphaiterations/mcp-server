@@ -1,0 +1,22 @@
+# MCP server framework
+fastmcp>=2.0
+
+# LangChain + LangGraph
+langchain
+langgraph
+
+# MCP adapter for LangChain
+langchain-mcp-adapters
+
+# Networking (HTTP transport, async)
+httpx
+uvicorn
+
+# LLM provider (example: OpenAI)
+openai
+
+# HTTP requests for API calls
+requests
+
+# Optional but recommended
+python-dotenv
