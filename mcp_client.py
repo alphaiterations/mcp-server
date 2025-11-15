@@ -209,6 +209,17 @@ g.add_edge("respond", END)
 graph = g.compile()
 print("🤖 LangGraph agent ready\n")
 
+# ---------------- SAVE GRAPH VISUALIZATION ----------------
+try:
+    # Generate and save the graph as PNG
+    png_data = graph.get_graph().draw_mermaid_png()
+    with open("langgraph_diagram.png", "wb") as f:
+        f.write(png_data)
+    print("📊 Graph visualization saved as 'langgraph_diagram.png'\n")
+except Exception as e:
+    print(f"⚠️ Could not generate graph visualization: {e}")
+    print("Note: Install graphviz system dependency if needed: brew install graphviz\n")
+
 # ---------------- TEST ----------------
 tests = [
     "What's the weather in Mumbai?",
