@@ -187,7 +187,7 @@ def generate_response(state: S):
         model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": "You are a helpful assistant. Use the tool results provided to answer the user's question in a natural, conversational way. Be concise but informative."},
-            {"role": "user", "content": f"User question: {state['msg']}\n\nTool results:\n{tool_data}\n\nProvide a helpful answer based on this information. Please limit your answer in 30 words."}
+            {"role": "user", "content": f"User question: {state['msg']}\n\nTool results:\n{tool_data}\n\nProvide a helpful answer based on this information. Please limit your answer in 100 words."}
         ],
         temperature=0.7
     )
