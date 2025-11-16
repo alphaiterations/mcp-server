@@ -123,7 +123,7 @@ User: "What's the weather in Mumbai?"
 ```
 
 #### Step 3.2: LangGraph Routing Node
-The routing node uses **OpenAI GPT-4** to analyze the request:
+The routing node uses **OpenAI gpt-4o-mini** to analyze the request:
 
 ```python
 def route_request(state):
@@ -367,7 +367,7 @@ AGENT: The current weather in Mumbai is 28°C (82°F) with partly cloudy
 |------------|---------|
 | **FastMCP** | Framework for building MCP servers quickly |
 | **LangGraph** | Build stateful, multi-step LLM applications |
-| **OpenAI GPT-4** | Intelligent routing and natural language generation |
+| **OpenAI gpt-4o-mini** | Intelligent routing and natural language generation |
 | **JSON-RPC** | Protocol for client-server communication |
 | **Pydantic** | Data validation and schema definition |
 | **STDIO** | Communication channel between client and server |
