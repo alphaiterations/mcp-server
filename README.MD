@@ -1,5 +1,7 @@
 # MCP Server with LangGraph Agent
 
+Read Complete Medium Article here : (Building an AI Agent with Model Context Protocol (MCP): A Complete Guide )[https://medium.com/@alphaiterations/building-an-ai-agent-with-model-context-protocol-mcp-a-complete-guide-37b8f6cd7b2b]
+
 ## 📖 Overview
 
 This project demonstrates a complete implementation of the **Model Context Protocol (MCP)** with an intelligent agent built using **LangGraph** and **OpenAI**. The system enables AI applications to seamlessly interact with external tools through a standardized protocol.
