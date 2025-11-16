@@ -1,6 +1,6 @@
 # MCP Server with LangGraph Agent
 
-Read Complete Medium Article here : (Building an AI Agent with Model Context Protocol (MCP): A Complete Guide )[https://medium.com/@alphaiterations/building-an-ai-agent-with-model-context-protocol-mcp-a-complete-guide-37b8f6cd7b2b]
+Read Complete Medium Article here : [Building an AI Agent with Model Context Protocol (MCP): A Complete Guide](https://medium.com/@alphaiterations/building-an-ai-agent-with-model-context-protocol-mcp-a-complete-guide-37b8f6cd7b2b)
 
 ## 📖 Overview
 
